@@ -1,6 +1,0 @@
-require(knitr)
-require(markdown)
-# setwd("/Users/Michelle/Desktop/Getting And Cleaning Data")
-setwd("/Users/Michelle/Desktop/Getting And Cleaning Data")
-knit("getting and cleaning data.Rmd", encoding="ISO8859-1")
-markdownToHTML("getting and cleaning data.md", "getting and cleaning data.html")
